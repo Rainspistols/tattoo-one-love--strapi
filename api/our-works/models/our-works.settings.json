@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_works",
+  "info": {
+    "name": "our-works"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "list": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

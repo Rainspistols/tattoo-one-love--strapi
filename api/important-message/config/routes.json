@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/important-message",
+      "handler": "important-message.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/important-message",
+      "handler": "important-message.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/important-message",
+      "handler": "important-message.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
