@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "polityka_cookies",
+  "info": {
+    "name": "polityka-cookies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

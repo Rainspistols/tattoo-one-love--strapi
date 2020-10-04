@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/polityka-cookies",
+      "handler": "polityka-cookies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/polityka-cookies",
+      "handler": "polityka-cookies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/polityka-cookies",
+      "handler": "polityka-cookies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

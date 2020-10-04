@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/regulamin",
+      "handler": "regulamin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/regulamin",
+      "handler": "regulamin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/regulamin",
+      "handler": "regulamin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
