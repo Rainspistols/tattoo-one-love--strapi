@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/our-mission",
+      "handler": "our-mission.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/our-mission",
+      "handler": "our-mission.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/our-mission",
+      "handler": "our-mission.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
